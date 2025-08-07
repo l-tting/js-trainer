@@ -1,0 +1,81 @@
+INTRODUCTION TO JS
+JS - a programming language that interacts with the browser to make pages interactive and dynamic
+JS - what do we use it for?
+-> 1. User Interactivity - how the user interacts with a page e.g scroll, click ,hover, typing e.t.c
+-> 2. Reactivity - load data to a page
+
+
+
+Where To write JS?
+-> Written inside a script tag
+1. Internal JS - in a HTML File
+    -> script tag in the head section 
+    -> inside the body tag -> common 
+2. External JS -> external script file -> script with an src attribute 
+     ->used when writing a lot of JS
+
+JS DATA TYPES
+1.string - characters or text
+2.boolean - Truth values (True or False)
+3.number (covers both floats and integers)
+
+JS VARIABLES
+Variable - named container used to store data / values
+x = 4
+How to declare JS variables
+****keywords used to declare JS variables****
+1.let - used when you can reassign / change the value of a variable
+2.const - used when the value of variable  is a constant / cant be changed
+3.var - the old way to declare variables in older browsers - replaced by let -> depracated / outdated
+
+const pi = 3.142
+let x = 5
+x = 10
+let name = "Jane"
+name = "jane doe"
+
+How to output data in JS?
+-> console.log() -> print()
+-> access value in console window in the browser
+-> check data type -> typeof()
+
+x = 5
+y =10
+z = x + y
+
+
+
+STRING METHODS
+Methods - special inbuilt function
+Functions that are used to manipulate string data 
+-> Most methods aare accessed using the dot operator (.)
+1.length - checks for the no characters in a string  
+let name = "Jack"
+console.log(name.length)
+2.charAt() - return the character at a specified index
+3.toUpperCase() -> converts lowercase string to upper case
+4.toLowerCase() -> converts uppercase strings data to lower case
+5.indexOf() -> find the index of a character in a given string
+6.slice() ->divides a string into substrings using index
+7.repeat() -> replicates a string to a specified number
+8.trim() -> removes all whitespaces
+9.seacrh() - returns boolean(1 or -1) to check whether a string of chars exists in a string
+10.split() -> split  string dataa  into mutiple strings and store them in an array
+11.concat() - combining strings
+12.startsWith() - returns a boolean to check whether a string starts with specified chars
+13.endsWith()
+14.includes()
+15.substring()
+16.replace()
+
+
+NUMBER METHODS
+1.toString() -> converts a number into a string
+2.parseInt() - convert a string into an integer
+3.parseFloat() - converts a string into a floating number
+N/B -> the string to be converted to a number has to be a number in the first place
+4.toFixed() - fixed no of decimals
+
+
+TASK 
+->Slide 53 -Strings
