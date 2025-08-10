@@ -79,3 +79,41 @@ N/B -> the string to be converted to a number has to be a number in the first pl
 
 TASK 
 ->Slide 53 -Strings
+
+
+0714056473 - Brian Letting
+
+
+
+Condtionl Statements 
+Decision makers
+
+if(condition){
+    what happens when condition is true
+}else{
+    what happens when condition is false
+}
+
+
+if(condition){
+    what happens when 1st condition is true
+}else if(condition){
+    what happens when 2nd condition is true
+}else if(condition){
+    what happens when 3rd condition is true
+}else{
+    what happens when all conditions are false
+}
+
+
+Conditional Statements Tasks
+1.Tasks on slide 66
+2.Write a JavaScript conditional statement to sort three numbers
+3.Write a JavaScript program that computes the average marks of students based on the scale below
+70-100 -> A 
+60-69 -> B
+50-59 -> C
+40 - 49 -> D
+< 40 -> E
+
+
