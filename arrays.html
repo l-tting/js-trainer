@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        JS ARRAYS
+    </div>
+    <script>
+
+        let arr = [1,2,"dog",["Mike"]]
+        console.log(arr)
+        console.log(arr[3])
+        arr[2] = "cat"
+        console.log(arr)
+        //[1, 2, 'cat', Array(1)]
+        let len = arr.length
+        console.log(len)
+
+        let new_array = [20,true,["HP","Dell"],120.2]
+
+        new_array.push(40.65,54)
+
+        console.log(new_array)
+        //[20, true, Array(2), 120.2, 40.65, 54]
+        new_array.unshift("first","second")
+        console.log(new_array)
+        // ['first', 'second', 20, true, Array(2), 120.2, 40.65, 54]
+
+        new_array.pop()
+        console.log(new_array)
+        // ['first', 'second', 20, true, Array(2), 120.2, 40.65]
+        new_array.shift()
+        console.log(new_array)
+       // ['second', 20, true, Array(2), 120.2, 40.65]
+
+       let val = new_array.at(-1)
+       console.log(val)
+       //40.65
+
+       let arr1 = [1,2]
+       let arr2 = ["three","four"]
+       arr3 = arr1.concat(arr2)
+       console.log(arr3)
+       //[1, 2, 'three', 'four']
+
+        console.log(arr3.includes(1))
+        
+    let arr4 = ["three",true,1,65]
+    // console.log(arr4.sort())
+  
+    let arr5 = arr4.slice(1,3)
+    console.log(arr5)
+    //[true, 1]
+    </script>
+</body>
+</html>

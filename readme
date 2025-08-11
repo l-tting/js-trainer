@@ -117,3 +117,90 @@ Conditional Statements Tasks
 < 40 -> E
 
 
+DATA STRUCTURES
+1.ARRAYS  -> a data structure that can hold more than one value at a time 
+--Its equivalent to lists in Python
+-> They are ordered - can be accessed via index
+-> They are mutable - can be changed
+-> Can hold values of different data types
+-> Can hold multiple values
+-> Values are comma-separated
+-> JS arrays dont support -ve indexing directly -> use .at()
+
+syntax for creating an array
+let arr = [1,2,"dog",true,["Mike"]]
+
+Array Operations
+1.Accessing items in an array -> indexing
+2.Update or modify values in an array -> indexing
+3.Determine the size of an array -> array.length -> shows no of items in an array
+4. Adding items to an array 
+    array.push() - add at the end 
+    array.unshift() - at the beginning
+5. Removing array elements 
+    array.pop() - removes last element of an array
+    array.shift - remove first element of an array
+6. array.at() - access elements at a specified index -> supports -ve indexing
+7  array.concat() -  creates a new array by merging existing arrays
+8. array.includes() - checks whether an element is contained in an array - returns boolean
+9. array.sort() - arranges array elements in ascending order
+10. array.slice()- creating a portion of an aarraay using indexing (start,end)
+
+
+
+
+2.OBJECTS
+An object is a container / data structure that stores data in key-value pairs
+-> Equivalent to a dictionary in Python 
+
+Xtics of Objects
+->Store data in key value pairs
+->Mutable
+->Enclosed in {}
+->Values are accessed using keys 
+->Keys are strings
+->Values can be of any data type
+->They have methods 
+
+Why we use Objects
+1.To store correlated data
+2.To store complex structured data
+3. To represent real world entities
+
+e.g let car = {
+    "make":"Volvo",
+    "Yom":2015,
+    "com":"Sweden",
+    "new":false
+}
+
+let student ={
+    "name":"Jake",
+    "sid":37774,
+    "school":"Techcamp Africa"
+}
+
+let laptop ={
+    "make:"Mac",
+    "year":2018,
+    "Processor":"M2",
+}
+ "make":"Volvo", -> property -> key + value = property
+
+ Accessing Values in an Object
+1. dot notation (.) -> works only when the key names are valid identifiers 
+ -cant access values that have spaces
+2. bracket notation ["key"] - can access keys that have spaces
+
+
+          ARRAYS && OBJECTS TASKS
+-Array tasks - slide 69 & 70
+-> determine and apply the use of the following array methods:
+1.splice().   2.join().  3.reverse().  4.toString(). 5.indexOf()
+-Objects Tasks - slide 75 & 76
+
+
+
+
+
+
