@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // adding elements
+        let array = [100,200, false,"Jane","John"]
+        array.splice(2,0,300,400)
+        console.log(array)
+
+        //removing elements
+        array.splice(0,2)
+        console.log(array)
+        // [300, 400, false, 'Jane', 'John']
+
+        //replacing elements
+        array.splice(2,2,true,"Mike")
+        console.log(array)
+        //  [300, 400, true, 'Mike', 'John']
+
+
+
+    </script>
+</body>
+</html>

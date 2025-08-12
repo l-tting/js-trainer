@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        Object Tasks
+    </div>
+    <script>
+
+        let my_array= [23, 'Jane', 560, ['Lesson', 'Maths', {'currency' : 'KES'}], 987, 76,'John']
+
+        // let obj = my_array[3][2]
+        // obj.amount = 90
+        // console.log(my_array[3][2])
+
+        let number = my_array[4].toString()
+        let split_value = number.split('')
+        console.log(split_value)
+        //  ['9', '8', '7']
+
+        let reversed = split_value.reverse()
+        console.log(reversed)
+        // ['7', '8', '9']
+        let joined = reversed.join('')
+        console.log(joined)
+        
+
+        let new_value = parseInt(joined)
+
+        my_array[4] = new_value
+        console.log(my_array)
+        //  [23, 'Jane', 560, Array(3), 789, 76, 'John']
+
+        my_array[6] = "Jane"
+        console.log(my_array)
+        [23, 'Jane', 560, Array(3), 789, 76, 'Jane']
+
+
+        
+        
+
+
+
+
+
+
+    </script>
+</body>
+</html>
