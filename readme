@@ -221,9 +221,8 @@ my_object = [23, “Jane”, 560, [“Lesson”, “Maths”, {“currency” : 
 //. In the object with the key currency, add another key “amount” with value 90 5. Reverse 987 to 789 without using an inbuilt -method or Assigning 789 manually.
 Hint: arrays can be reversed using reverse() functions
 
+
 TASK - arrays and objects
-
-
 let company = {
   name: "TechCorp",
   founded: 2010,
@@ -268,12 +267,96 @@ let company = {
   ]
 };
 
+
 1. Display the following
 > Instagram
 > PostgreSQL
 > E-commerce Website
 >Tech Plaza
 > 4 in team
-
 2.Change the value of:
-Google Analytics to AWS
+>Google Analytics to AWS
+
+
+
+LOOPS 
+Repetitive action / task 
+Types of Loops 
+1. For - has to have a starting point, condition to be met, update
+2. While - always executes as long the specified condition is true
+3. Do while - will execute at least once before even checking if the condition is met
+
+syntax -> for(starting point;condition;update){
+      // iteration
+}
+starting point -> where is my iteration starting from e.g output numbers from 0 to 100 -> s.point -> 0
+condition -> condition to be met so that the loop keeps running 
+update -> increment or decrement
+
+e.g.
+//output numbers from 0 to 100
+for(i=0; i<=100; i++){
+  console.log(i)        
+}
+0 -> 1 ->2 -> 3
+
+Looping Through a data structure e.g arrays
+
+let fruits = ["mango","orange","banana","apple","peach"]
+
+i> 5
+
+Backwards Loop
+-> Update from increment to decrement 
+
+
+
+
+
+CONDITIONAL STATEMENTS 
+-> Ability to make decisions 
+-> Check whether a no is even or odd
+-> Criteria of making a choice -> num% 2 = 0 -> even 
+
+if(num%2==0){
+    console.log("even")
+}else{
+    console.log("odd")
+}
+
+if(condition){
+  //what happens if condition is true
+}else{
+  // what happens if condition is false
+}
+
+if(condition 1){
+  // what happens if condition 1 is true
+}else if(condition 2){
+  // what happens if condition 2 is true
+}}else if(condition 3){
+  // what happens if condition 3 is true
+}else{
+  // what happens if all conditions are false
+}
+curly braces -> in JS -> blocks
+
+
+
+Assignment 2: Extract Subarray
+Given an array “sourceArray”, extract a subarray “extractedArray” from index 2 to index 4
+using the .slice() method. Then, modify the extractedArray by replacing its elements
+with 'x', 'y', and 'z' using the .splice() method. Finally, display both the sourceArray
+ and the modified extractedArray.
+
+
+
+ TAking user input in JS
+ -> prompt() -> function that takes user input 
+ -> ALL DATA FROM USER INPUT IS A STRING
+
+
+
+LOOPS TASK -> slide 79 
+Use a while and for loop to write a program that checks for a user's password
+and lets them input  password 4 times .Upon failure display "User is blocked"
