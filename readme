@@ -360,3 +360,45 @@ with 'x', 'y', and 'z' using the .splice() method. Finally, display both the sou
 LOOPS TASK -> slide 79 
 Use a while and for loop to write a program that checks for a user's password
 and lets them input  password 4 times .Upon failure display "User is blocked"
+
+
+FUNCTIONS
+A function is a reusable block of code used to perform a specific task
+
+Why use functions?
+1. Reusability of code 
+2. Modularity -> breaking large code into smaller pieces 
+3. Organization of code
+4. Easier debugging
+5. Readability
+
+
+
+*global vs local variable
+global variable -> a variable that is accessible in the entire program / global space
+local variable -> accessible only within its local / block scope
+
+
+*argument vs parameter 
+parameter -> a placeholder / temporary value when defining a function
+argument -> exact value passed when calling a function
+
+functions use return keyword -> signify the end of a function
+
+
+SYNTAX
+
+function function_name(){
+  // function body
+}
+
+function function_name(x,y){
+    return x + y
+}
+
+function_name()
+
+
+TASK
+slide 80
+questions 1 -20 

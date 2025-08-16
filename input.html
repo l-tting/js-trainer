@@ -8,8 +8,23 @@
 <body>
     <script>
 
-        let num1 = parseInt(prompt("Enter number: "))
-        let num2 = parseInt(prompt("Enter number: "))
+        let password = '1234'
+
+        for(let attempts = 0;attempts < 4;attempts++){
+            let userinput = prompt("Enter password")
+
+            if(userinput ===password){
+                console.log("Correct password")
+                break;
+            }else{
+                console.log("Incorrect passworrd")
+            }
+            if( attempts==4){
+                console.log("Blocked")
+            }
+        }
+        
+
       
      
     </script>
