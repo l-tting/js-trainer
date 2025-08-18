@@ -395,10 +395,20 @@ function function_name(){
 function function_name(x,y){
     return x + y
 }
+function function_name() -> function definition
 
-function_name()
+function_name() -> function call
 
 
 TASK
 slide 80
-questions 1 -20 
+questions 1 - 20 
+
+INTERMEDIARY TASKS
+-> EXTERNAL JS -> script tag with an src attribute
+-> src -> an attribute containing the path to an external JS file
+
+JS -> passing a variable inside a string
+-> template literals -> backticks
+
+``-> backticks
