@@ -74,7 +74,7 @@ function get_birthday(birth_date){
     let birth_month = parseInt(birthdate_parts[1])
     let birth_day = parseInt(birthdate_parts[2])
 
-    let todayDate = 18
+    let todayDate = 19
     let todayMonth = 8
     let todayYear = 2025 
 
@@ -104,6 +104,19 @@ function get_birthday(birth_date){
 
 }
 
+
+ let today =  new Date();
+    let dateofbirth = new Date(prompt("enter your year , month , date of birth"));
+    
+    let years = today.getFullYear() - dateofbirth.getFullYear();
+    let months = (today.getMonth() - dateofbirth.getMonth());
+    let days = (today.getDate() - dateofbirth.getDate()); 
+
+    if(months < 1 ){
+        console.log(months + 12)
+    }
+   
+    console.log("your" , years ,"years" ,months ,"months", days ,"days", "old" )
 
 
 

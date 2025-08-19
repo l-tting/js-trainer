@@ -412,3 +412,32 @@ JS -> passing a variable inside a string
 -> template literals -> backticks
 
 ``-> backticks
+
+
+CREATE A NEW PROJECT CAALLED TAX_CALCULATOR
+-tax.html
+-tax.js
+
+
+FORM INPUT
+-User Friendly -> Form -> 2 inputs (basic salary, allowances)
+-> Html and JS are linked via script -src
+-> Process 
+--- Take user input - FORM
+---Submit input to JS
+---- Process that input
+--- Use JS for tax computation
+---- Pass output back to html -- TABLE
+----> document.getElementById() -> JS method used to identify an element by its unique id attribute
+
+class -> attribute used by css to identify elements uniquely for styling
+id -> attribute used by js to uniquely identify elements
+
+
+addEventListener()-> a method used to listen for events
+event.preventDefault() -> prevents the default behaviour of the browser after submission
+document.getElementById("basic_salary").value - getting uer input from form elements only
+document.getElementById("basic_salary").innerHTML - used with all elements
+
+
+**event.preventDefault()**
